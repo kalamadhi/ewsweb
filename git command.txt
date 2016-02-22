@@ -1,0 +1,16 @@
+- install git-scm
+
+NGECLONE REPOSITORY KE KOMPUTER
+- buka repository ewsweb di github
+- kopas url di sebelah tombol "https"
+- bikin folder baru di komputer
+- klik kanan pilih "git bash"
+- nanti muncul jendela mirip command prompt, masukin command "git clone <url yang abis dikopas>"
+- nanti folder itu isinya repository github nya
+
+NGEPUSH KE GITHUB (ngaplot hasil modifikasi)
+- buka folder hasil clone repository (ada folder .git)
+- klik kanan pilih 'git bash'
+- nanti muncul jendela mirip command prompt, masukin command "git add --all"
+- masukin command: git commit -m "<nama pesannya mau apa>"
+- masukin command: git push origin master
